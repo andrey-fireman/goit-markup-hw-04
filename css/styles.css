@@ -148,12 +148,17 @@ a {text-decoration: none;}
 /*section_1*/
 
 .hero{
-    background: var(--title-color);
+    background-color: var(--title-color);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/hero-section.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1440px;
     padding: 188px 0;
 }
 
 .hero-section{
     color: var(--heading-color);
+    
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -199,6 +204,16 @@ a {text-decoration: none;}
     flex-basis: calc((100% - 72px) / 4);
 }
 
+.items-features{
+    background-color: #F4F4FD;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+.icon-features{
+    margin: 24px 100px;
+}
+
 .items:last-child{
     padding-right: 0;
 }
@@ -215,8 +230,33 @@ a {text-decoration: none;}
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-
 }
+
+.webstudio-soc-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.webstudio-soc-item {
+    width: 40px;
+    height: 40px;
+    
+}
+.webstudio-soc-link {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: var(--button-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.webstudio-soc-icon{
+    
+}
+
 
 .item-images{
     display: flex;
@@ -287,6 +327,34 @@ a {text-decoration: none;}
     line-height: 24px;
     text-align: center;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
+}
+.title-customers{
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+}
+
+.icon{
+}
+
+.customers-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.customers-item {
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    padding: 16px 32px;
+}
+.customers-link {
+}
+.customers-icon {
 }
 
 /* footer */
@@ -304,6 +372,8 @@ a {text-decoration: none;}
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+
 
 .link-footer-page{
     font-family: 'Raleway', sans-serif;
