@@ -360,6 +360,7 @@ a {text-decoration: none;}
     border-radius: 4px;
 }
 .customers-link {
+    
 }
 .customers-icon:hover {
     fill: var(--icon-color-hover);
@@ -418,7 +419,7 @@ a {text-decoration: none;}
     justify-content: center;
 }
 
-.link-footer-webstudio:hover,                       :focus{
+.link-footer-webstudio:hover,:focus{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
