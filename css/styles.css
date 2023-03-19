@@ -630,6 +630,7 @@ a {text-decoration: none;}
 
 .footer-section{
     padding: 100px 0;
+    display: flex;
 }
 
 .link-footer{
